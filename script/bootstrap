@@ -2,7 +2,7 @@
 
 set -e
 
-cd "$(dirname "$1")/.."
+cd "$(dirname "$0")/.."
 
 if [[ -z "${SKIP_BUNDLER}" ]]; then
   echo "==> Installing gem dependencies…"
